@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Kumar | Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+      }
+      .sidebar {
+        background-color: #102b97;
+        padding: 40px;
+        width: 320px;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sidebar img {
+        border-radius: 50%;
+        border: 5px solid white;
+        width: 150px;
+        height: 150px;
+      }
+      .content {
+        margin-left: 360px;
+        padding: 40px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h1,
+      h2 {
+        color: #fff;
+      }
+      .project-card {
+        background-color: #4b25e1;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s;
+        width: 500px;
+      }
+      .project-card:hover {
+        transform: translateY(-10px);
+      }
+      .project-card a {
+        color: #fff;
+        text-decoration: underline;
+        display: block;
+        margin-top: 10px;
+      }
+      .contact a {
+        color: #4b25e1;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin: 10px;
+        transition: color 0.3s;
+      }
+      .contact a:hover {
+        color: #fff;
+      }
+      .footer {
+        margin-top: 50px;
+        text-align: center;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="x.png" alt="Profile Picture" />
+      <h1>Pranav Kumar</h1>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Pranav, a web developer passionate about front-end technologies,
+        solving design challenges, and building responsive, user-friendly
+        websites.
+      </p>
+      <h2>Skills</h2>
+      <p>Proficient in Python, Java, JavaScript, React, Django, and Git.</p>
+    </div>
+    <div class="content">
+      <h2>My Projects</h2>
+
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>
+          Developed a modern personal portfolio website to showcase my skills,
+          achievements, and contact information.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>E-commerce Website</h3>
+        <p>
+          Led a team of three in creating a complete e-commerce platform with
+          product listing, cart management, and secure payments.
+        </p>
+        <a href="https://sparkling-figolla-950440.netlify.app/" target="_blank"
+          >View Project</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h3>Time Management Website</h3>
+        <p>
+          Directed a project with a collaborative team to build a web-based time
+          management tool for optimizing productivity.
+        </p>
+        <a href="https://bitshifter-9.github.io/s-w_proj/" target="_blank"
+          >View Project</a
+        >
+      </div>
+
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: bandarampranav.com</p>
+        <p>Phone: 8125900906</p>
+        <a
+          href="https://www.linkedin.com/in/pranav-kumar-bandaram/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://codeforces.com/profile/Bit_shifter" target="_blank"
+          >Codeforces</a
+        >
+        <a href="https://www.codechef.com/users/bit_shifter_09" target="_blank"
+          >CodeChef</a
+        >
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 Pranav Kumar. All Rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
